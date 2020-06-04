@@ -9,7 +9,6 @@ This document describes the scenario of the multi-agent system, and the setup in
     1.2. Decompress it and move the folder to your jason environment directory.
          Please NOTE: the tree of the project directory should be like the following structure:
     
-    '''mark
     ├── Readme.txt
     ├── bin
     │   ├── classes
@@ -22,7 +21,6 @@ This document describes the scenario of the multi-agent system, and the setup in
         │   ├── patient.asl
         │   └── stock_manager.asl
         └── java
-    '''
     
 ### 2. Import the Project
     2.1. Open "Eclipse";
