@@ -8,17 +8,21 @@ This document describes the scenario of the multi-agent system, and the setup in
 
     1.2. Decompress it and move the folder to your jason environment directory.
          Please NOTE: the tree of the project directory should be like the following structure:
---health
-  |
-  --src/asl
-    |
-    --agent_name.asl
-  --src/java
-  --Referenced Libraries
-  --bin
-  --src
-    |
-    -- health.mas2j
+    
+    '''mark
+    ├── Readme.txt
+    ├── bin
+    │   ├── classes
+    │   └── health.xml
+    ├── health.mas2j
+    └── src
+        ├── asl
+        │   ├── doctorA.asl
+        │   ├── doctorB.asl
+        │   ├── patient.asl
+        │   └── stock_manager.asl
+        └── java
+    '''
     
 ### 2. Import the Project
     2.1. Open "Eclipse";
