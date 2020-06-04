@@ -44,3 +44,9 @@ This document describes the scenario of the multi-agent system, and the setup in
     3.4. Switch to "Order and Export" tab, click "JRE System Library [jdk-version]" in Windows and in Mac OS. Click "Apply and          Close";
     
     3.5. Now, please feel free to run the project by clicking "Run Jason Application".
+
+## Results
+
+<p align="center">
+  <img src="Result.png">
+</p>
