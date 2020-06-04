@@ -2,6 +2,13 @@
 
 This document describes the scenario of the multi-agent system, and the setup instructions.
 
+## Scenario
+
+In this scenario, there are 4 agents in all: one patient, two doctors and a medicine stock manager. The patient who has symptom(s) turns to see the doctors for medical advice and prescriptions. Doctors would make their diagnosis based on their knowledge. If the patient is confirmed to have disease, he can purchase the medicine on the prescriptions from the doctors, if the patient doesn’t have such medicine. Patient’s name is Anderson, Doctor A’s name is Alice, Doctor B’s name is Thomas, medicine stock manager’s name is James.
+
+The global knowledge base for diagnosing is that there are symptoms A, B and C, and disease D. Dr. Alice believes that only patients have both symptoms A and B, who are infected with disease D; Dr. Thomas believes that if patients have symptom B, who are diagnosed as having disease D. Since the patient didn’t make an appointment, and there is only one doctor would work at a time (the other one is on the break), the patient may meet different doctors when visiting the clinic. Therefore, the conversation would continue between the patient and the doctor who is working at the moment. If the diagnosis is that the patient has the disease D, then the patient would ask the doctor(s) their prescriptions and purchase the medicine at the clinic. we assume that the patient would feel much better after purchasing. After the purchase, the doctors would ask the medicine stock manager for delivering more. At the beginning of the project, the manager checks the stock status and publish the information. If the amounts of medicine requirement from doctors don’t exceed that of stockpile, manager would deliver the required medicine to the doctors.
+
+
 ## Setup
 ### 1. Download and Decompress
     1.1. Download the "health.zip" file that contains all files of the project.
